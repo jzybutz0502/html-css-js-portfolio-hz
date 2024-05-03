@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Zybutz Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Jack Zybutz</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Jack Zybutz</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#music" onclick="toggleMenu()">Music</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/fotor-2024042711954.png" alt="Jack Zybutz profile picture"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text_p1">Hello, I'm</p>   
+            <h1 class="title">Jack Zybutz</h1> 
+            <p class="section__text__p2">Mechanical Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')"
+                >Download CV
+            </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"
+                >Contact Info
+            </button>
+            <div id="socials-container">
+                <img 
+                src="./assets/linkedin.png" 
+                alt="My LinkedIn profile" 
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/jack-zybutz/'"
+                />
+                <img 
+                src="./assets/github.png" 
+                alt="My github profile" 
+                class="icon" 
+                onclick="location.href='https://github.com/jzybutz0502'"
+                />
+            </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#about'"
+      />
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/asdfdasf-fotor-2024042718027-modified.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>1 year Design Internship <br />Various design projects</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>Meng Mechanical Engineering with Industrial year<br />Predicted: First</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                I am a dedicated Mechanical Design Engineer with a solid foundation in automation and mechanical design. I bring hands-on experience from my one-year internship in New Zealand, where I contributed to a range of projects in the field of automation. 
+              </p>
+              <p>
+                My work involved designing, prototyping, and testing innovative mechanical systems, which has equipped me with a comprehensive understanding of the design process from concept to implementation. I thrive on solving complex engineering challenges and am passionate about creating efficient, reliable, and high-performance mechanical systems.
+
+              </p>
+              <p>
+                My expertise lies in CAD design, automation, and collaborative engineering, and I am excited to bring my skills to new and challenging projects.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Expereince</h1>
+        <div class="expereince-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="expereince-sub-title">Mechanical Engineering</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" a="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>Solidworks</h3>
+                                <p>Expereienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>Onshape</h3>
+                                <p>Expereienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>Fusion 360</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>Blender</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>Additive manufacturing</h3>
+                                <p>Expereienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>Subtractive manufacturing</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="expereince-sub-title">Mechanical Engineering</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>Matlab</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>ABAQUS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>FLUENT</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>Assembly</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Expereince icon" class="icon"/>
+                            <div>
+                                <h3>Quality Control</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+   <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Treadmill.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Self-Powered Treadmill for Low Gravity Applications</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/Group3_PostCDRReport.pdf')"
+              >
+                Post Project Report
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Picture1-fotor-2024042711340.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">ESA Satilite Mechanical Design</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#music'"
+      />
+    </section>
+    <section id="music">
+        <p class="section__text__p1"></p>
+        <p class="section__text__p1">Listen To My Recent</p>
+        <h1 class="title">Music</h1>
+        <div class="music-container">
+          <div class="Lose-Control">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/11Jqde3hAMGD3tQs6SO4Il?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6GB2P6m1oI32zRVIg2U5wk?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        />
+      <p class="section__text__p1">All music written, produced and mastered by me</p>
+      <p class="section__text__p1"></p>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch!</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" al  t="Email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:examplemail@gmail.com">zybutzjack45@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/jack-zybutz/">LinkedIn</a></p>
+            </div>
+          </div>
+        <img
+          src="./assets/arrow-up.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#about'"
+        />
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#profile">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <img
+          src="../assets/arrow-up.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+        <p>Copyright &#169; 2024 Jack Zybutz. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
