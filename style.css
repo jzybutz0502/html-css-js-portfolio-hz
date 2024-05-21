@@ -75,6 +75,7 @@ a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  display: flex;
 }
 
 .hamburger-icon {
@@ -95,6 +96,7 @@ a:hover {
 
 .menu-links {
   position: absolute;
+  flex: auto;
   top: 100%;
   right: 0;
   background-color: white;
@@ -102,6 +104,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  border: 10px;
 }
 
 .menu-links a {
@@ -116,6 +119,9 @@ a:hover {
 
 .menu-links li {
   list-style: none;
+  position: relative;
+  z-index: 2;
+  background-color: white;
 }
 
 .menu-links.open {
@@ -285,9 +291,10 @@ section {
   
 }
 
-.abuot-text-container{
+.about-text-container{
   display: flex;
   flex-wrap: wrap;
+  word-spacing: normal;
 }
 
 .about-pic {
@@ -301,6 +308,7 @@ section {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
+  margin: 1.5rem;
   text-align: center;
 }
 
@@ -346,8 +354,9 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: center;
   gap: 0.5rem;
+  align-items: baseline;
 }
 
 /* PROJECTS SECTION */
